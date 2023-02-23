@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.cau.TyperHintEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_editext"
+        android:focusable="true"
+        android:hint="https://www.facebook.com/DoanNamVBHP/"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:scrollHorizontally="true"
+        app:charIncrease="1"
+        app:typerSpeed="50" />
+
+    <com.example.cau.RainbowTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hihiiihihihhiihihihihi" />
+
+</LinearLayout>
